@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; }
+.container { @apply mx-auto px-4; }
+.btn { @apply inline-flex items-center justify-center rounded-md border px-4 py-2 text-sm font-medium transition hover:opacity-90; }
+.btn-primary { @apply bg-black text-white; }
+.badge { @apply inline-block rounded-full border px-2 py-0.5 text-xs font-semibold; }
+.card { @apply border rounded-lg overflow-hidden bg-white; }
